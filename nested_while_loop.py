@@ -1,6 +1,5 @@
 '''
 nested while
-
 i=5
 while i>=1:
     j=i
@@ -9,6 +8,7 @@ while i>=1:
         j=j-1
     print("")
     i=i-1
+
 '''
 no=int(input("Enter No:"))  # 5 -> 9 6 ->11  7 -> 13
 
