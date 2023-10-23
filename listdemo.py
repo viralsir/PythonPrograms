@@ -3,7 +3,12 @@
 list :-  is a shared name of multiple memmory block.
 '''
 
-# list1=[12,23,33,44,55]
+list1=[12,23,33,44,55]
+
+
+# for i in range(len(list1)):
+#     print(list1[i])
+
 #
 # print(list1[0])
 # print(list1[2])
@@ -54,22 +59,22 @@ list :-  is a shared name of multiple memmory block.
 
 list1=[23,44,55,6,78,90,67]
 
-no=int(input("Enter No:"))
-if no in list1:
-    print(no," inside the list")
-else :
-    print(no,"is  not inside the list")
+# no=int(input("Enter No:"))
+# if no in list1:
+#     print(no," inside the list")
+# else :
+#     print(no,"is  not inside the list")
 
 
-# print(list1)
-# print(list1[0])
-# #slicing
-# print(list1[1:4])
-# print(list1[1:])
-# print(list1[1:6:2])
-# print(list1[-3:-1])
-# print(list1[-3:])
-# print(list1[:])
+print(list1)
+print(list1[0])
+#slicing
+print(list1[1:4])
+print(list1[1:])
+print(list1[1:6:2])
+print(list1[-3:-1])
+print(list1[-3:])
+print(list1[:])
 
 #while loop
 # index=0
