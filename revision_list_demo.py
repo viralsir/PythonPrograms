@@ -2,6 +2,7 @@
 list : is a shared name of multiple memory location.
 []
 no=[23,3,44]
+
 '''
 no=[23,33,44,34,54,65,77,33,33]
 
