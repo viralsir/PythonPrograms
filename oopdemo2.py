@@ -18,6 +18,8 @@
          s1=student()
          s2=student()
 
+from filename import def or class name or *
+
 '''
 
 
@@ -42,6 +44,14 @@ class student:
         print("Name :", self.name)
         print("Maths :", self.maths)
         print("Sci :", self.sci)
+        if self.maths>=35 and self.sci>=35 :
+            print("you are pass")
+            total=self.maths+self.sci
+            avg=total/2
+            print("Total :",total)
+            print("Avg :",avg)
+        else :
+            print("You are Fail")
 
 
 s3=student(4,"vijay",34,44)
