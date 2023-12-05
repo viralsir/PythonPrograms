@@ -6,7 +6,6 @@
                sequance
                deletion
 
-
    Database : store data in tabular
    database : collection of tables
    table : collection of rows and cols
@@ -20,7 +19,6 @@
    Dr. e.f.codd
    12 rules
    rdbms : relational database managment system
-
 
 '''
 
@@ -43,7 +41,6 @@ try:                        #username/password@localhost:1521/xe
     for row in cursor:
         for data in row:
             print(data)
-
 
     #con.commit()
     #print("Table Created Successfully!")
